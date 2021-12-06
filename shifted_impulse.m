@@ -1,7 +1,7 @@
 %% impulse function 
 n = -10:10;
 
-output = impulse_function(n);
+output = shifted_impulse_function(n,2);
 
 stem(n,output);
 hold on
@@ -9,5 +9,5 @@ hold on
 xlabel("Value of x");
 ylabel("Value of y");
 
-title("Imuplse function");
+title("Shifted Imuplse Function");
 
