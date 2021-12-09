@@ -16,3 +16,6 @@ subplot(2,2,3);
 stem(y);
 title('convolution between x and y');
 
+
+
+
