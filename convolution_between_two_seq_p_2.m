@@ -21,7 +21,6 @@ for i=1:n1+n2-1
   end
 end
 
-y
 
 stem(y);
 title('convulation of two signal');
