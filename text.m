@@ -1,18 +1,13 @@
-tiledlayout(2,2);
-[X,Y,Z] = peaks(20);
 
-% Tile 1
-nexttile;
-surf(X,Y,Z);
+t = 0:.0001:.01;
 
-% Tile 2
-nexttile;
-contour(X,Y,Z);
+x = 5*cos(2*pi*1000*t);
 
-% Tile 3
-nexttile;
-imagesc(Z);
+subplot(3,1,1);
+plot(t,x);
+title('analog signal');
+n = 1:50;
 
-% Tile 4
-nexttile;
-plot3(X,Y,Z);
+y = 5*cos(2*pi*10000*n);
+subplot(3,1,2);
+stem(y)

@@ -3,7 +3,7 @@ close all;
 clear all;
 
 x = [1,2,1,1];
-h = [1,-1,1,-1];
+h = [1,-1,1,1];
 
 n1 = length(x);
 n2 = length(h);
@@ -21,9 +21,10 @@ for i=1:n1+n2-1
   end
 end
 
+y
 
-stem(y);
-title('convulation of two signal');
+%stem(y);
+%title('convulation of two signal');
 
 
 
